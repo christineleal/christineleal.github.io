@@ -1,0 +1,53 @@
+/* all of the paragraph text has these attributes*/
+html {
+    font-size: 10px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* all of the list and headers will have these attributes*/
+p, li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+/* if the mouse is hovered over a link (a), it'll have these attributes. you can change the a*/
+a:hover {
+    width: 700px;
+    color: aqua;
+}
+
+li:hover {
+    width: 700px;
+    color: aqua;
+}
+
+html {
+    background-color: #a2da97;
+}
+
+body {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #6497b4;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color:darkslateblue;
+    text-shadow: 3px 3px 1px black;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+
+}
